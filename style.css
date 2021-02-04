@@ -61,3 +61,9 @@ transform: translateY(18px) scale(.9);
 .container .icon.moon:hover path{
 animation: animate-moon 2s infinite forwards;
 }
+@keyframes animate-moon {
+     0%{stroke-dashoffset: 0;}
+     40%{stroke-dashoffset: 1770;}
+     80%{stroke-dashoffset: 3540;fill: transparent;}
+     100%{stroke-dashoffset: 3540;fill: #31e8ff;}
+}
